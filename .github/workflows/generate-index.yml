@@ -5,11 +5,10 @@ on:
     branches: [main]
     paths: ["**/*.md"]
   workflow_dispatch:
-  commit:
 
 jobs:
   generate-index:
-    runs-on: ubuntu-latest
+    runs-on: cms
 
     steps:
       - uses: actions/checkout@v4
