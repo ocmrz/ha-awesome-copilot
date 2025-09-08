@@ -1,0 +1,808 @@
+{
+  "standards": [],
+  "templates": [],
+  "prompts": [
+    {
+      "title": "ai-prompt-engineering-safety-review.prompt",
+      "description": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.",
+      "filename": "ai-prompt-engineering-safety-review.prompt.md",
+      "link": "prompts/ai-prompt-engineering-safety-review.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "architecture-blueprint-generator.prompt",
+      "description": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.",
+      "filename": "architecture-blueprint-generator.prompt.md",
+      "link": "prompts/architecture-blueprint-generator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "aspnet-minimal-api-openapi.prompt",
+      "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation",
+      "filename": "aspnet-minimal-api-openapi.prompt.md",
+      "link": "prompts/aspnet-minimal-api-openapi.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "az-cost-optimize.prompt",
+      "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
+      "filename": "az-cost-optimize.prompt.md",
+      "link": "prompts/az-cost-optimize.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "azure-resource-health-diagnose.prompt",
+      "description": "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.",
+      "filename": "azure-resource-health-diagnose.prompt.md",
+      "link": "prompts/azure-resource-health-diagnose.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "boost-prompt.prompt",
+      "description": "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code. Requires the Joyride extension.",
+      "filename": "boost-prompt.prompt.md",
+      "link": "prompts/boost-prompt.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "breakdown-epic-arch.prompt",
+      "description": "Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document.",
+      "filename": "breakdown-epic-arch.prompt.md",
+      "link": "prompts/breakdown-epic-arch.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "breakdown-epic-pm.prompt",
+      "description": "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as input for generating a technical architecture specification.",
+      "filename": "breakdown-epic-pm.prompt.md",
+      "link": "prompts/breakdown-epic-pm.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "breakdown-feature-implementation.prompt",
+      "description": "Prompt for creating detailed feature implementation plans, following Epoch monorepo structure.",
+      "filename": "breakdown-feature-implementation.prompt.md",
+      "link": "prompts/breakdown-feature-implementation.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "breakdown-feature-prd.prompt",
+      "description": "Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic.",
+      "filename": "breakdown-feature-prd.prompt.md",
+      "link": "prompts/breakdown-feature-prd.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "breakdown-plan.prompt",
+      "description": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.",
+      "filename": "breakdown-plan.prompt.md",
+      "link": "prompts/breakdown-plan.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "breakdown-test.prompt",
+      "description": "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects.",
+      "filename": "breakdown-test.prompt.md",
+      "link": "prompts/breakdown-test.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "Clojure Memory Updater",
+      "description": "Have the agent update the clojure-memory.instructions.md file with mistakes it just made, or lessons learned. Also consider installing the default clojure-memory.instructions.md",
+      "filename": "clojure-add-to-memory.prompt.md",
+      "link": "prompts/clojure-add-to-memory.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "code-exemplars-blueprint-generator.prompt",
+      "description": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript, React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to establish coding standards and maintain consistency across development teams.",
+      "filename": "code-exemplars-blueprint-generator.prompt.md",
+      "link": "prompts/code-exemplars-blueprint-generator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "comment-code-generate-a-tutorial.prompt",
+      "description": "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.",
+      "filename": "comment-code-generate-a-tutorial.prompt.md",
+      "link": "prompts/comment-code-generate-a-tutorial.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "containerize-aspnet-framework.prompt",
+      "description": "Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project.",
+      "filename": "containerize-aspnet-framework.prompt.md",
+      "link": "prompts/containerize-aspnet-framework.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "containerize-aspnetcore.prompt",
+      "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
+      "filename": "containerize-aspnetcore.prompt.md",
+      "link": "prompts/containerize-aspnetcore.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "copilot-instructions-blueprint-generator.prompt",
+      "description": "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.",
+      "filename": "copilot-instructions-blueprint-generator.prompt.md",
+      "link": "prompts/copilot-instructions-blueprint-generator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-agentsmd.prompt",
+      "description": "Prompt for generating an AGENTS.md file for a repository",
+      "filename": "create-agentsmd.prompt.md",
+      "link": "prompts/create-agentsmd.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-architectural-decision-record.prompt",
+      "description": "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.",
+      "filename": "create-architectural-decision-record.prompt.md",
+      "link": "prompts/create-architectural-decision-record.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-github-action-workflow-specification.prompt",
+      "description": "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance.",
+      "filename": "create-github-action-workflow-specification.prompt.md",
+      "link": "prompts/create-github-action-workflow-specification.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-github-issue-feature-from-specification.prompt",
+      "description": "Create GitHub Issue for feature request from specification file using feature_request.yml template.",
+      "filename": "create-github-issue-feature-from-specification.prompt.md",
+      "link": "prompts/create-github-issue-feature-from-specification.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-github-issues-feature-from-implementation-plan.prompt",
+      "description": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.",
+      "filename": "create-github-issues-feature-from-implementation-plan.prompt.md",
+      "link": "prompts/create-github-issues-feature-from-implementation-plan.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-github-issues-for-unmet-specification-requirements.prompt",
+      "description": "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template.",
+      "filename": "create-github-issues-for-unmet-specification-requirements.prompt.md",
+      "link": "prompts/create-github-issues-for-unmet-specification-requirements.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-github-pull-request-from-specification.prompt",
+      "description": "Create GitHub Pull Request for feature request from specification file using pull_request_template.md template.",
+      "filename": "create-github-pull-request-from-specification.prompt.md",
+      "link": "prompts/create-github-pull-request-from-specification.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-implementation-plan.prompt",
+      "description": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+      "filename": "create-implementation-plan.prompt.md",
+      "link": "prompts/create-implementation-plan.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-llms.prompt",
+      "description": "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/",
+      "filename": "create-llms.prompt.md",
+      "link": "prompts/create-llms.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-oo-component-documentation.prompt",
+      "description": "Create comprehensive, standardized documentation for object-oriented components following industry best practices and architectural documentation standards.",
+      "filename": "create-oo-component-documentation.prompt.md",
+      "link": "prompts/create-oo-component-documentation.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-readme.prompt",
+      "description": "Create a README.md file for the project",
+      "filename": "create-readme.prompt.md",
+      "link": "prompts/create-readme.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-specification.prompt",
+      "description": "Create a new specification file for the solution, optimized for Generative AI consumption.",
+      "filename": "create-specification.prompt.md",
+      "link": "prompts/create-specification.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-spring-boot-java-project.prompt",
+      "description": "Create Spring Boot Java project skeleton",
+      "filename": "create-spring-boot-java-project.prompt.md",
+      "link": "prompts/create-spring-boot-java-project.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "create-spring-boot-kotlin-project.prompt",
+      "description": "Create Spring Boot Kotlin project skeleton",
+      "filename": "create-spring-boot-kotlin-project.prompt.md",
+      "link": "prompts/create-spring-boot-kotlin-project.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "csharp-async.prompt",
+      "description": "Get best practices for C# async programming",
+      "filename": "csharp-async.prompt.md",
+      "link": "prompts/csharp-async.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "csharp-docs.prompt",
+      "description": "Ensure that C# types are documented with XML comments and follow best practices for documentation.",
+      "filename": "csharp-docs.prompt.md",
+      "link": "prompts/csharp-docs.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "csharp-mstest.prompt",
+      "description": "Get best practices for MSTest unit testing, including data-driven tests",
+      "filename": "csharp-mstest.prompt.md",
+      "link": "prompts/csharp-mstest.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "csharp-nunit.prompt",
+      "description": "Get best practices for NUnit unit testing, including data-driven tests",
+      "filename": "csharp-nunit.prompt.md",
+      "link": "prompts/csharp-nunit.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "csharp-tunit.prompt",
+      "description": "Get best practices for TUnit unit testing, including data-driven tests",
+      "filename": "csharp-tunit.prompt.md",
+      "link": "prompts/csharp-tunit.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "csharp-xunit.prompt",
+      "description": "Get best practices for XUnit unit testing, including data-driven tests",
+      "filename": "csharp-xunit.prompt.md",
+      "link": "prompts/csharp-xunit.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "documentation-writer.prompt",
+      "description": "Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework.",
+      "filename": "documentation-writer.prompt.md",
+      "link": "prompts/documentation-writer.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "dotnet-best-practices.prompt",
+      "description": "Ensure .NET/C# code meets best practices for the solution/project.",
+      "filename": "dotnet-best-practices.prompt.md",
+      "link": "prompts/dotnet-best-practices.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "dotnet-design-pattern-review.prompt",
+      "description": "Review the C#/.NET code for design pattern implementation and suggest improvements.",
+      "filename": "dotnet-design-pattern-review.prompt.md",
+      "link": "prompts/dotnet-design-pattern-review.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "EditorConfig Expert",
+      "description": "Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences.",
+      "filename": "editorconfig.prompt.md",
+      "link": "prompts/editorconfig.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "ef-core.prompt",
+      "description": "Get best practices for Entity Framework Core",
+      "filename": "ef-core.prompt.md",
+      "link": "prompts/ef-core.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "first-ask.prompt",
+      "description": "Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carrying out the task; Requires the Joyride extension.",
+      "filename": "first-ask.prompt.md",
+      "link": "prompts/first-ask.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "folder-structure-blueprint-generator.prompt",
+      "description": "Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed blueprints with visualization options, naming conventions, file placement patterns, and extension templates for maintaining consistent code organization across diverse technology stacks.",
+      "filename": "folder-structure-blueprint-generator.prompt.md",
+      "link": "prompts/folder-structure-blueprint-generator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "gen-specs-as-issues.prompt",
+      "description": "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation.",
+      "filename": "gen-specs-as-issues.prompt.md",
+      "link": "prompts/gen-specs-as-issues.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "generate-custom-instructions-from-codebase.prompt",
+      "description": "Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project versions (branches, commits, or releases) to create precise instructions allowing Copilot to maintain consistency during technology migrations, major refactoring, or framework version upgrades.",
+      "filename": "generate-custom-instructions-from-codebase.prompt.md",
+      "link": "prompts/generate-custom-instructions-from-codebase.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "git-flow-branch-creator.prompt",
+      "description": "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.",
+      "filename": "git-flow-branch-creator.prompt.md",
+      "link": "prompts/git-flow-branch-creator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "java-docs.prompt",
+      "description": "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.",
+      "filename": "java-docs.prompt.md",
+      "link": "prompts/java-docs.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "java-junit.prompt",
+      "description": "Get best practices for JUnit 5 unit testing, including data-driven tests",
+      "filename": "java-junit.prompt.md",
+      "link": "prompts/java-junit.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "java-springboot.prompt",
+      "description": "Get best practices for developing applications with Spring Boot.",
+      "filename": "java-springboot.prompt.md",
+      "link": "prompts/java-springboot.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "javascript-typescript-jest.prompt",
+      "description": "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns.",
+      "filename": "javascript-typescript-jest.prompt.md",
+      "link": "prompts/javascript-typescript-jest.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "kotlin-springboot.prompt",
+      "description": "Get best practices for developing applications with Spring Boot and Kotlin.",
+      "filename": "kotlin-springboot.prompt.md",
+      "link": "prompts/kotlin-springboot.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "mkdocs-translations.prompt",
+      "description": "Generate a language translation for a mkdocs documentation stack.",
+      "filename": "mkdocs-translations.prompt.md",
+      "link": "prompts/mkdocs-translations.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "multi-stage-dockerfile.prompt",
+      "description": "Create optimized multi-stage Dockerfiles for any language or framework",
+      "filename": "multi-stage-dockerfile.prompt.md",
+      "link": "prompts/multi-stage-dockerfile.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "my-issues.prompt",
+      "description": "List my issues in the current repository",
+      "filename": "my-issues.prompt.md",
+      "link": "prompts/my-issues.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "my-pull-requests.prompt",
+      "description": "List my pull requests in the current repository",
+      "filename": "my-pull-requests.prompt.md",
+      "link": "prompts/my-pull-requests.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "next-intl-add-language.prompt",
+      "description": "Add new language to a Next.js + next-intl application",
+      "filename": "next-intl-add-language.prompt.md",
+      "link": "prompts/next-intl-add-language.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "playwright-automation-fill-in-form.prompt",
+      "description": "Automate filling in a form using Playwright MCP",
+      "filename": "playwright-automation-fill-in-form.prompt.md",
+      "link": "prompts/playwright-automation-fill-in-form.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "playwright-explore-website.prompt",
+      "description": "Website exploration for testing using Playwright MCP",
+      "filename": "playwright-explore-website.prompt.md",
+      "link": "prompts/playwright-explore-website.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "playwright-generate-test.prompt",
+      "description": "Generate a Playwright test based on a scenario using Playwright MCP",
+      "filename": "playwright-generate-test.prompt.md",
+      "link": "prompts/playwright-generate-test.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "postgresql-code-review.prompt",
+      "description": "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS).",
+      "filename": "postgresql-code-review.prompt.md",
+      "link": "prompts/postgresql-code-review.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "postgresql-optimization.prompt",
+      "description": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem.",
+      "filename": "postgresql-optimization.prompt.md",
+      "link": "prompts/postgresql-optimization.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "project-workflow-analysis-blueprint-generator.prompt",
+      "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.",
+      "filename": "project-workflow-analysis-blueprint-generator.prompt.md",
+      "link": "prompts/project-workflow-analysis-blueprint-generator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "prompt-builder.prompt",
+      "description": "Guide users through creating high-quality GitHub Copilot prompts with proper structure, tools, and best practices.",
+      "filename": "prompt-builder.prompt.md",
+      "link": "prompts/prompt-builder.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "readme-blueprint-generator.prompt",
+      "description": "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.",
+      "filename": "readme-blueprint-generator.prompt.md",
+      "link": "prompts/readme-blueprint-generator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "Interactive Programming Nudge",
+      "description": "Reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
+      "filename": "remember-interactive-programming.prompt.md",
+      "link": "prompts/remember-interactive-programming.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "repo-story-time.prompt",
+      "description": "Generate a comprehensive repository summary and narrative story from commit history",
+      "filename": "repo-story-time.prompt.md",
+      "link": "prompts/repo-story-time.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "review-and-refactor.prompt",
+      "description": "Review and refactor code in your project according to defined instructions",
+      "filename": "review-and-refactor.prompt.md",
+      "link": "prompts/review-and-refactor.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "sql-code-review.prompt",
+      "description": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage.",
+      "filename": "sql-code-review.prompt.md",
+      "link": "prompts/sql-code-review.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "sql-optimization.prompt",
+      "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.",
+      "filename": "sql-optimization.prompt.md",
+      "link": "prompts/sql-optimization.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "suggest-awesome-github-copilot-chatmodes.prompt",
+      "description": "Suggest relevant GitHub Copilot chatmode files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing chatmodes in this repository.",
+      "filename": "suggest-awesome-github-copilot-chatmodes.prompt.md",
+      "link": "prompts/suggest-awesome-github-copilot-chatmodes.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "suggest-awesome-github-copilot-prompts.prompt",
+      "description": "Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository.",
+      "filename": "suggest-awesome-github-copilot-prompts.prompt.md",
+      "link": "prompts/suggest-awesome-github-copilot-prompts.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "technology-stack-blueprint-generator.prompt",
+      "description": "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implementation patterns across multiple platforms (.NET, Java, JavaScript, React, Python). Generates configurable blueprints with version information, licensing details, usage patterns, coding conventions, and visual diagrams. Provides implementation-ready templates and maintains architectural consistency for guided development.",
+      "filename": "technology-stack-blueprint-generator.prompt.md",
+      "link": "prompts/technology-stack-blueprint-generator.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "update-avm-modules-in-bicep.prompt",
+      "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
+      "filename": "update-avm-modules-in-bicep.prompt.md",
+      "link": "prompts/update-avm-modules-in-bicep.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "update-implementation-plan.prompt",
+      "description": "Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+      "filename": "update-implementation-plan.prompt.md",
+      "link": "prompts/update-implementation-plan.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "update-llms.prompt",
+      "description": "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/",
+      "filename": "update-llms.prompt.md",
+      "link": "prompts/update-llms.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "update-markdown-file-index.prompt",
+      "description": "Update a markdown file section with an index/table of files from a specified folder.",
+      "filename": "update-markdown-file-index.prompt.md",
+      "link": "prompts/update-markdown-file-index.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "update-oo-component-documentation.prompt",
+      "description": "Update existing object-oriented component documentation following industry best practices and architectural documentation standards.",
+      "filename": "update-oo-component-documentation.prompt.md",
+      "link": "prompts/update-oo-component-documentation.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    },
+    {
+      "title": "update-specification.prompt",
+      "description": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.",
+      "filename": "update-specification.prompt.md",
+      "link": "prompts/update-specification.prompt.md",
+      "category": "prompts",
+      "author": "Unknown",
+      "created": "2025-09-08",
+      "tags": []
+    }
+  ],
+  "reviews": [],
+  "architecture": []
+}
