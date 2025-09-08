@@ -2,11 +2,16 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 
-const categories = ['standards', 'templates', 'prompts', 'reviews', 'architecture'];
-const index = {};
+// Categories to match awesome-copilot format
+const categories = ['instructions', 'prompts', 'chatmodes'];
+const index = {
+  generated: new Date().toISOString(),
+  instructions: [],
+  prompts: [],
+  chatmodes: []
+};
 
 categories.forEach(category => {
-  index[category] = [];
   const categoryDir = path.join('.', category);
 
   if (fs.existsSync(categoryDir)) {
@@ -19,18 +24,14 @@ categories.forEach(category => {
       const data = parsed.data;
 
       index[category].push({
-        title: data.title || filename.replace('.md', ''),
-        description: data.description || 'No description provided',
         filename: filename,
-        link: `${category}/${filename}`,
-        category: category,
-        author: data.author || 'Unknown',
-        created: data.created || new Date().toISOString().split('T')[0],
-        tags: data.tags || []
+        title: data.title || filename.replace('.md', ''),
+        description: `"${data.description || 'No description provided'}"`,
+        link: `${category}/${filename}`
       });
     });
   }
 });
 
 fs.writeFileSync('index.json', JSON.stringify(index, null, 2));
-console.log(`Generated index.json with ${Object.values(index).flat().length} total items`);
+console.log(`Generated index.json with ${Object.values(index).filter(Array.isArray).flat().length} total items`);
