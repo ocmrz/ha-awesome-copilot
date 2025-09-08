@@ -1,5 +1,5 @@
 {
-  "generated": "2025-09-08T09:21:17.892Z",
+  "generated": "2025-09-08T09:36:31.111Z",
   "instructions": [
     {
       "filename": "cms-dhpai-unit-test-generation-doc.instructions.md",
@@ -51,6 +51,12 @@
     }
   ],
   "prompts": [
+    {
+      "filename": "architecture-blueprint-generator.prompt.md",
+      "title": "architecture-blueprint-generator.prompt",
+      "description": "\"Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.\"",
+      "link": "prompts/architecture-blueprint-generator.prompt.md"
+    },
     {
       "filename": "professional-prompt-builder.md",
       "title": "professional-prompt-builder",
