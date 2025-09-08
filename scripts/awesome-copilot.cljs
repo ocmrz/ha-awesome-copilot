@@ -25,8 +25,8 @@
             [clojure.string :as str]
             [joyride.core :as joyride]))
 
-(def INDEX-URL "https://raw.githubusercontent.com/ocmrz/ha-awesome-copilot/main/index.json")
-(def CONTENT-BASE-URL "https://raw.githubusercontent.com/ocmrz/ha-awesome-copilot/main/")
+(def INDEX-URL "https://hagithub.home/raw/CMS/cms-dhpai-copilot-template/main/index.json?token=GHSAT0AAAAAAAAAFEO7HZTIK7WXCFQTOCKM2F6UUTA")
+(def CONTENT-BASE-URL "https://hagithub.home/raw/CMS/cms-dhpai-copilot-template/main")
 ;; Preference management for picker memory
 (def PREFS-KEY "awesome-copilot-preferences")
 
