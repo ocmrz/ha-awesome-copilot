@@ -25,8 +25,23 @@
             [clojure.string :as str]
             [joyride.core :as joyride]))
 
-(def INDEX-URL "https://hagithub.home/raw/CMS/cms-dhpai-copilot-template/main/index.json?token=GHSAT0AAAAAAAAAFEO7HZTIK7WXCFQTOCKM2F6UUTA")
+(def INDEX-URL "https://hagithub.home/raw/CMS/cms-dhpai-copilot-template/main/index.json")
 (def CONTENT-BASE-URL "https://hagithub.home/raw/CMS/cms-dhpai-copilot-template/main")
+
+;; TODO: Replace with your GitHub Enterprise Personal Access Token
+;; Create a PAT at: https://hagithub.home/settings/tokens
+;; Required scopes: repo (for private repos) or public_repo (for public repos)
+(def GITHUB-PAT "YOUR_GITHUB_PAT_HERE")
+
+(defn create-auth-headers []
+  "Create authentication headers with PAT"
+  (if (and GITHUB-PAT (not= GITHUB-PAT "YOUR_GITHUB_PAT_HERE"))
+    #js {"Authorization" (str "token " GITHUB-PAT)
+         "Accept" "application/vnd.github.v3+json"}
+    (do
+      (vscode/window.showErrorMessage
+       "Please set your GitHub PAT in the GITHUB-PAT constant at the top of the script.")
+      #js {})))
 ;; Preference management for picker memory
 (def PREFS-KEY "awesome-copilot-preferences")
 
@@ -129,14 +144,20 @@
     :action :workspace}])
 
 (defn fetch-index+ []
-  (p/let [response (js/fetch INDEX-URL)
+  (p/let [headers (create-auth-headers)
+          response (js/fetch INDEX-URL #js {:headers headers})
+          _ (when-not (.-ok response)
+              (throw (js/Error. (str "Failed to fetch index: " (.-status response) " " (.-statusText response)))))
           data (.json response)
           clj-data (js->clj data :keywordize-keys true)]
     clj-data))
 
 (defn fetch-content+ [link]
   (let [content-url (str CONTENT-BASE-URL link)]
-    (p/let [response (js/fetch content-url)
+    (p/let [headers (create-auth-headers)
+            response (js/fetch content-url #js {:headers headers})
+            _ (when-not (.-ok response)
+                (throw (js/Error. (str "Failed to fetch content from " content-url ": " (.-status response) " " (.-statusText response)))))
             text (.text response)]
       text)))
 
