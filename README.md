@@ -10,6 +10,23 @@ This repository provides a comprehensive toolkit for enhancing GitHub Copilot wi
 - **[![Awesome Instructions](https://img.shields.io/badge/Awesome-Instructions-blue?logo=githubcopilot)](README.instructions.md)** - Comprehensive coding standards and best practices that apply to specific file patterns or entire projects
 - **[![Awesome Chat Modes](https://img.shields.io/badge/Awesome-Chat_Modes-blue?logo=githubcopilot)](README.chatmodes.md)** - Specialized AI personas and conversation modes for different roles and contexts
 
+## Joyride Extension
+
+The [Joyride Extension](https://marketplace.visualstudio.com/items?itemName=BetterThanTomorrow.joyride) is a powerful extension that lets you run automations scripts in VS Code. We use it to browse, preview, and install Awesome Copilot prompts, instructions, and chat modes.
+
+### Install and use
+
+1. Install [Joyride](https://marketplace.visualstudio.com/items?itemName=BetterThanTomorrow.joyride).
+2. Create the user script:
+   - Open `scripts/awesome-copilot.cljs` in this repo and copy all contents.
+   - Open the Command Palette and run "Joyride: Create User Script...".
+   - Name it `ha-awesome-copilot`, paste the contents, and save.
+3. Set your GitHub PAT in the script by updating `GITHUB-PAT`.
+4. Run the script:
+   - Command Palette → "Joyride: Run User Script..." → select `ha-awesome-copilot`.
+   - Pick a category, choose an item, and select an action (View, Install Globally, Install in Workspace).
+
+<!--
 ## MCP Server
 
 To make it easy to add these customizations to your editor, we have created a [MCP Server](https://developer.microsoft.com/blog/announcing-awesome-copilot-mcp-server) that provides a prompt for searching and installing prompts, instructions, and chat modes directly from this repository.
@@ -34,7 +51,7 @@ To make it easy to add these customizations to your editor, we have created a [M
     }
   }
 }
-```
+``` -->
 
 </details>
 
