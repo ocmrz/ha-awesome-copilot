@@ -153,13 +153,16 @@
     clj-data))
 
 (defn fetch-content+ [link]
-  (let [content-url (str CONTENT-BASE-URL link)]
-    (p/let [headers (create-auth-headers)
-            response (js/fetch content-url #js {:headers headers})
-            _ (when-not (.-ok response)
-                (throw (js/Error. (str "Failed to fetch content from " content-url ": " (.-status response) " " (.-statusText response)))))
-            text (.text response)]
-      text)))
+  ;; Ensure there is exactly one slash between base and link
+  (let [base (if (str/ends-with? CONTENT-BASE-URL "/") CONTENT-BASE-URL (str CONTENT-BASE-URL "/"))
+    link* (if (str/starts-with? link "/") (subs link 1) link)
+    content-url (str base link*)]
+  (p/let [headers (create-auth-headers)
+      response (js/fetch content-url #js {:headers headers})
+      _ (when-not (.-ok response)
+        (throw (js/Error. (str "Failed to fetch content from " content-url ": " (.-status response) " " (.-statusText response)))))
+      text (.text response)]
+    text)))
 
 (defn show-category-picker+ []
   (show-picker-with-memory+
